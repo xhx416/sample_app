@@ -27,6 +27,19 @@ textarea {
   }
 }
 
+.header_li{
+
+  color: #FFFFFF;
+  font-weight:bold;
+  
+}
+
+.header_li:hover{
+  text-decoration: underline;
+}
+
+
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,12 +50,12 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
   font-size: 1.2em;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
@@ -66,12 +79,19 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-  ß
-  &:hover {
-    color: #fff;
+
+   &:hover {
     text-decoration: none;
   }
 }
+
+.navbar {
+  .navbar-inner {
+    background-color: #005CB8;
+    background-image: none;
+  }
+}
+
 
 /* footer */
 
