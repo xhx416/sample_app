@@ -15,6 +15,7 @@ end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 gem 'sass-rails'
@@ -23,6 +24,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+
 
 group :doc do
   gem 'sdoc', require: false
